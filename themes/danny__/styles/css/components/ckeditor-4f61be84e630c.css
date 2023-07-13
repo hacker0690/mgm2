@@ -1,0 +1,106 @@
+/**
+ * CKEditor
+ *  - brutal overrides to style the CKEditor to match the theme.
+ *  - colors are in the _color.scss file (near the bottom).
+ * This file loads as an library override of Stable, see the info.yml file.
+ ============================================================================ */
+
+.cke_chrome {
+    box-shadow: none !important;
+    border: 1px solid !important;
+    border-top: 1px solid !important;
+    border-bottom: 1px solid !important;
+}
+
+.cke_top {
+    box-shadow: none !important;
+    border-bottom: 1px solid !important;
+    background-image: none !important;
+}
+
+.cke_bottom {
+    box-shadow: none !important;
+    border-top: 1px solid !important;
+    background-image: none !important;
+}
+
+textarea.cke_source {
+    padding: 0.5em !important;
+    font-family: "Courier New", Courier, monospace !important;
+    font-size: 14px !important;
+}
+
+a.cke_path_item,
+span.cke_path_empty {
+    text-shadow: none !important;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* ********************** FOOTER ********************************* */
+
+.footer {
+    background-color: #3b281c;
+}
+
+.footer .footer-table h2 {
+    color: white;
+}
+
+.footer .footer-table a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.footer .footer-table a:hover {
+    color: blue;
+}
+
+.footer .footer-table td {
+    color: white;
+    font-size: 20px;
+}
+
+.footer .footer-table img {
+    width: 40px;
+    height: 40px;
+    display: inline;
+}
+
+.footer .footer-table tr {
+    background-color: inherit;
+    border: none;
+}
+
+table.footer-table {
+    width: 100%;
+}
+
+.footer .footer-table th,
+td {
+    background-color: inherit;
+    text-align: center;
+    padding: 8px;
+    border: none;
+}
+
+/* ***************************FOOTER-END*************************** */
